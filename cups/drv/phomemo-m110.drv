@@ -1,5 +1,5 @@
 //
-// Driver info file for Phomemo M110/120
+// Driver info file for Phomemo M110/120/220
 //
 // Copyright © 2020 Laurent Vivier <laurent@vivier.eu>
 //
@@ -29,6 +29,7 @@
 #media "w50h50/Label 50mmx50mm" 50mm 50mm
 #media "w50h70/Label 50mmx70mm" 50mm 70mm
 #media "w50h80/Label 50mmx80mm" 50mm 80mm
+#media "w70h80/Label 70mmx80mm" 70mm 80mm
 
 Manufacturer "Phomemo"
 Version 2.0
@@ -80,4 +81,10 @@ MediaType 38 "LabelWithMarks/Label With Marks"
   ModelName "M120"
   PCFileName "Phomemo-M120.ppd"
   Attribute "NickName" "" "Phomemo M120"
+}
+{
+  ModelName "M220"
+  PCFileName "Phomemo-M220.ppd"
+  Attribute "NickName" "" "Phomemo M220"
+  MediaSize "w70h80"
 }

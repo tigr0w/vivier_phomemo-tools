@@ -59,7 +59,6 @@ semanage permissive -a cupsd_t
 /usr/share/cups/drv/phomemo-m02pro.drv
 /usr/share/cups/drv/phomemo-m110.drv
 /usr/share/cups/drv/phomemo-d30.drv
-/usr/share/cups/drv/phomemo-m220.drv
 /usr/share/cups/drv/phomemo-m421.drv
 /usr/lib/cups/filter/rastertopm02_t02
 /usr/lib/cups/filter/rastertopm110

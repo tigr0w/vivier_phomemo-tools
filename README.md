@@ -203,7 +203,7 @@ This definition will use the "phomemo" backend to connect to the printer:
 
 ###### 2.2.2.1.2 M110, M120, M220
 
-Use "Phomemo-M110.ppd.gz" for M110/M220 or "Phomemo-M120.ppd.gz" for M120 (same driver, different model name).
+Use "Phomemo-M110.ppd.gz" for M110, "Phomemo-M120.ppd.gz" for M120, and "Phomemo-M220.ppd.gz" for M220 (same driver, M220 exposes w70h80).
 The -p option defines the printer name. It should be changed according to the printer used.
 
 ```
@@ -224,7 +224,7 @@ This definition will use the /dev/usb/lp0 device to connect to the printer:
 
 ###### 2.2.2.1.2 M110, M120, M220
 
-Use "Phomemo-M110.ppd.gz" for M110/M220 or "Phomemo-M120.ppd.gz" for M120 (same driver, different model name).
+Use "Phomemo-M110.ppd.gz" for M110, "Phomemo-M120.ppd.gz" for M120, and "Phomemo-M220.ppd.gz" for M220 (same driver, M220 exposes w70h80).
 The -p option defines the printer name. It should be changed according to the printer used.
 
 ```

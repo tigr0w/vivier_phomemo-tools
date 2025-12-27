@@ -19,7 +19,6 @@ FILES += cups/drv/phomemo-m02_t02.drv
 FILES += cups/drv/phomemo-m02pro.drv
 FILES += cups/drv/phomemo-m110.drv
 FILES += cups/drv/phomemo-d30.drv
-FILES += cups/drv/phomemo-m220.drv
 FILES += cups/drv/phomemo-m421.drv
 FILES += glabels/generate.sh
 FILES += glabels/Makefile
