@@ -1,5 +1,5 @@
 //
-// Driver info file for Phomemo M110
+// Driver info file for Phomemo M110/120
 //
 // Copyright © 2020 Laurent Vivier <laurent@vivier.eu>
 //
@@ -75,4 +75,9 @@ MediaType 38 "LabelWithMarks/Label With Marks"
   ModelName "M110"
   PCFileName "Phomemo-M110.ppd"
   Attribute "NickName" "" "Phomemo M110"
+}
+{
+  ModelName "M120"
+  PCFileName "Phomemo-M120.ppd"
+  Attribute "NickName" "" "Phomemo M120"
 }

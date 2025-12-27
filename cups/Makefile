@@ -15,6 +15,7 @@ install:
 	install -D drv/phomemo-d30.drv -t $(DESTDIR)/usr/share/cups/drv/
 	install -D drv/phomemo-m421.drv -t $(DESTDIR)/usr/share/cups/drv/
 	install -D ppd/Phomemo-M110.ppd.gz -t $(DESTDIR)/usr/share/cups/model/Phomemo
+	install -D ppd/Phomemo-M120.ppd.gz -t $(DESTDIR)/usr/share/cups/model/Phomemo
 	install -D ppd/Phomemo-M220.ppd.gz -t $(DESTDIR)/usr/share/cups/model/Phomemo
 	install -D ppd/Phomemo-M421.ppd.gz -t $(DESTDIR)/usr/share/cups/model/Phomemo
 	install -Dm 755 filter/rastertopm02_t02.py $(DESTDIR)/usr/lib/cups/filter/rastertopm02_t02
