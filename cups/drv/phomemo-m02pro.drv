@@ -1,5 +1,5 @@
 //
-// Driver info file for Phomemo M02/T02
+// Driver info file for Phomemo M02Pro/M02S
 //
 // Copyright © 2020 Laurent Vivier <laurent@vivier.eu>
 //
@@ -68,6 +68,13 @@ Attribute ParamCustomFeedLines Lines "1 int 0 20"
   Attribute "NickName" "" "Phomemo M02 Pro"
   ModelName "M02 Pro"
   PCFileName "Phomemo-M02Pro.ppd"
+  Option "FeedLines" PickOne DocumentSetup 20.0
+  *Choice "Default/Default (2)" "<</AdvanceDistance 2>>setpagedevice"
+}
+{
+  Attribute "NickName" "" "Phomemo M02S"
+  ModelName "M02S"
+  PCFileName "Phomemo-M02S.ppd"
   Option "FeedLines" PickOne DocumentSetup 20.0
   *Choice "Default/Default (2)" "<</AdvanceDistance 2>>setpagedevice"
 }

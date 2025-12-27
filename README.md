@@ -1,7 +1,7 @@
 # Phomemo-tools
 
 This package is trying to provide tools to print pictures using
-the Phomemo M02, M110, M120, M220 and T02 thermal printers from Linux.
+the Phomemo M02, M02 Pro, M02S, M110, M120, M220 and T02 thermal printers from Linux.
 
 All the information here has been reverse-engineered sniffing
 the bluetooth packets emitted by the Android application.
@@ -194,11 +194,23 @@ Click on "Add a Printer...".
 
 This definition will use the "phomemo" backend to connect to the printer:
 
-###### 2.2.2.1.1 M02
+###### 2.2.2.1.1 M02, M02 Pro, M02S
+
+Use "Phomemo-M02.ppd.gz" for M02, "Phomemo-M02Pro.ppd.gz" for M02 Pro, and "Phomemo-M02S.ppd.gz" for M02S (same driver as M02 Pro).
 
 ```
   $ sudo lpadmin -p M02 -E -v phomemo://DC0D309023C7 \
                            -P /usr/share/cups/model/Phomemo/Phomemo-M02.ppd.gz
+```
+
+```
+  $ sudo lpadmin -p M02Pro -E -v phomemo://DC0D309023C7 \
+                           -P /usr/share/cups/model/Phomemo/Phomemo-M02Pro.ppd.gz
+```
+
+```
+  $ sudo lpadmin -p M02S -E -v phomemo://DC0D309023C7 \
+                          -P /usr/share/cups/model/Phomemo/Phomemo-M02S.ppd.gz
 ```
 
 ###### 2.2.2.1.2 M110, M120, M220
@@ -215,11 +227,23 @@ The -p option defines the printer name. It should be changed according to the pr
 
 This definition will use the /dev/usb/lp0 device to connect to the printer:
 
-###### 2.2.2.2.1 M02
+###### 2.2.2.2.1 M02, M02 Pro, M02S
+
+Use "Phomemo-M02.ppd.gz" for M02, "Phomemo-M02Pro.ppd.gz" for M02 Pro, and "Phomemo-M02S.ppd.gz" for M02S (same driver as M02 Pro).
 
 ```
   $ sudo lpadmin -p M02 -E -v serial:/dev/usb/lp0 \
                            -P /usr/share/cups/model/Phomemo/Phomemo-M02.ppd.gz
+```
+
+```
+  $ sudo lpadmin -p M02Pro -E -v serial:/dev/usb/lp0 \
+                           -P /usr/share/cups/model/Phomemo/Phomemo-M02Pro.ppd.gz
+```
+
+```
+  $ sudo lpadmin -p M02S -E -v serial:/dev/usb/lp0 \
+                          -P /usr/share/cups/model/Phomemo/Phomemo-M02S.ppd.gz
 ```
 
 ###### 2.2.2.1.2 M110, M120, M220

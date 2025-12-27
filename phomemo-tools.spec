@@ -49,6 +49,7 @@ semanage permissive -a cupsd_t
 /usr/share/phomemo/format-checker.py
 /usr/share/cups/model/Phomemo/Phomemo-M02.ppd.gz
 /usr/share/cups/model/Phomemo/Phomemo-M02Pro.ppd.gz
+/usr/share/cups/model/Phomemo/Phomemo-M02S.ppd.gz
 /usr/share/cups/model/Phomemo/Phomemo-T02.ppd.gz
 /usr/share/cups/model/Phomemo/Phomemo-M110.ppd.gz
 /usr/share/cups/model/Phomemo/Phomemo-M120.ppd.gz
